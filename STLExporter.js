@@ -8,9 +8,6 @@
  * @author atnartur / http://atnartur.ru
  */
 
-if(typeof THREE == 'undefined' && typeof require != 'undefined')
-	var THREE = require('three')
-
 THREE.STLExporter = function () {};
 
 THREE.STLExporter.prototype = {
